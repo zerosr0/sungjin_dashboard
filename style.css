@@ -68,7 +68,16 @@ table .unitTitle{
 
 .testGraph,
 .activateGraph{
-  margin:30px ;
+  margin:50px ;
+}
+
+.testGraph p,
+.activateGraph p{
+  text-align: center;
+  margin: 10px;
+  letter-spacing: 1px;
+  font-size: 25px;
+  background-color: #E8EBF4;
 }
 
 .testGraph .axis_x,
@@ -93,7 +102,7 @@ table .unitTitle{
 .testGraph .axis_x .item .data2,
 .testGraph .axis_x .item .data3,
 .testGraph .axis_x .item .data4{
-  width: 40px;
+  width: 60px;
   background: #33ccff;
   display: flex;
   justify-content: center;
@@ -114,12 +123,12 @@ table .unitTitle{
 }
 .testGraph .axis_x .item .volume,
 .activateGraph .axis_x .item .volume{
-  font-size: 12px;
+  font-size: 14px;
 }
 .testGraph .axis_x .item .blind,
 .activateGraph .axis_x .item .blind{
   color: #000;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bolder;
 }
 
@@ -131,7 +140,7 @@ table .unitTitle{
 .activateGraph .axis_x .item .data2,
 .activateGraph .axis_x .item .data3,
 .activateGraph .axis_x .item .data4{
-  width: 40px;
+  width: 60px;
   background: #33ccff;
   display: flex;
   justify-content: center;
@@ -156,5 +165,5 @@ table .unitTitle{
   z-index: 2;
   width: 96%;
   height: 2px;
-  background-color: #dc143c;
+  background-color: #fb3960;
 }
