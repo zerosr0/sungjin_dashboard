@@ -25,6 +25,7 @@ h1{
   
 }
 
+/* table common css */
 table{
   width: 100%;
   margin: 30px auto;
@@ -66,6 +67,7 @@ table .unitTitle{
   letter-spacing: 2px;
 }
 
+/* graph css */
 .testGraph,
 .activateGraph{
   margin:50px ;
